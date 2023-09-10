@@ -1,0 +1,152 @@
+@media ( max-width:1201px){
+    .image {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .imagetext {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .singleService {
+        width: 46%;
+        text-align: center;
+    }
+    .singleService {
+        width: 46%;
+        box-sizing: border-box;
+        padding: 0 107px;
+    }
+}
+
+@media ( max-width:844px ) {
+    .menu ul li a {
+        padding: 0px 15px;
+        line-height: 45px;
+    }
+    .singleService {
+        width: 46%;
+        float: left;
+        margin-bottom: 40px;
+    }
+    .singleService {
+        width: 46%;
+        float: left;
+        margin-bottom: 40px;
+    }
+    .serviceSection {
+        padding: 50px 0;
+    }
+    .singleService p {
+        font-size: 17px;
+    }
+    .singleService h3 {
+        font-size: 21px;
+        padding-top: 21px;
+    }
+    .singleService p {
+        font-size: 17px;
+        padding-top: 23px;
+        line-height: 33px;
+    }
+    .image {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .imagetext {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact-icon li {
+        padding: 11px;
+        font-size: 21px;
+    }
+    .footer {
+        padding: 13px;
+        font-size: 13px;
+    }
+}
+@media ( max-width:778px ) {
+    .menu ul li a {
+        padding: 0px 7px;
+    }
+    .singleService {
+        width: 100%;
+        float: none;
+    }
+    .singleService p {
+        font-size: 17px;
+        margin-bottom: 17px;
+        padding: 15px 0;
+    }
+    .image {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .imagetext {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .taitel p {
+        font-size: 23px;
+        padding-top: 34px;
+    }
+    .taitel {
+        line-height: 29px;
+    }
+    .taitel h1 {
+        font-size: 29px;
+    }
+    .text1 {
+        font-size: 13px;
+    }
+    .contact-icon li {
+        padding: 13px;
+        font-size: 17px;
+    }
+    .footer {
+        padding: 11px;
+        font-size: 11px;
+    }
+    .contactText {
+        padding: 27px 0;
+    }
+    .aboutSection {
+        padding: 50px 0;
+    }
+    .serviceSection {
+        padding: 50px 0;
+    }
+    .singleService h3 {
+        padding-top: 11px;
+    }
+}
+@media ( max-width:671px ) {
+    .logo {
+        float: none;
+        text-align: center;
+    }
+    .menu ul {
+        float: none;
+        text-align: center;
+    }
+}
+@media ( max-width:456px ) {
+    .menu ul li a {
+        padding: 0px 3px;
+    }
+    .heroSection {
+        padding: 37px 0;
+    }
+    .hero h1 {
+        font-size: 32px;
+    }
+    .hero h4 {
+        font-size: 11px;
+    }
+}

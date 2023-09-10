@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.headerSection{
+    background-color: #0bbf9a;
+    padding: 13px 7px;
+}
+.logo{
+    float: left;
+}
+.logo a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 23px;
+    display: inline-block;
+    color: white;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    line-height: 25px;
+}
+.menu ul li a:hover{
+    color: hotpink;
+}
+
+
+/* hero section start */
+
+.heroSection{
+    background-image: url(https://i.ibb.co/193WmGj/header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+}
+.hero h1{
+    font-size: 50px;
+}
+.hero h4{
+    margin: 10px 0;
+}
+.hero a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 7px 13px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: .7s;
+}
+.hero a:hover{
+    background-color: white;
+    color: hotpink;
+}
+/* service section start */
+
+.serviceSection{
+    padding: 100px 0;
+}
+.taitel h1{
+    font-size: 37px;
+}
+.taitel {
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 50px;
+    color: #555555;
+    font-size: 19px;
+}
+.serviceGrid{
+    line-height: 27px;
+}
+.singleService h3 {
+    font-size: 23px;
+    padding-top: 27px;
+}
+.singleService p {
+    font-size: 20px;
+    padding: 23px 0px;
+    line-height: 33px;
+}
+.singleService{
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin: 2%;
+    color: #555555;
+}
+.singleService i{
+    color: #0bbf9a;
+    font-size: 37px;
+}
+
+/* about section start */
+.aboutSection{
+    padding: 100px 0;
+    border-top: 3px solid cyan;
+}
+.image{
+    width: 40%;
+    height: auto;
+    float: left;
+}
+.imagetext{
+    width: 60%;
+    height: auto;
+    float: right;
+}
+img{
+    width: 400px;
+    height: auto;
+}
+.imgtext h4 {
+    font-size: 21px;
+    padding: 17px 0;
+}
+.imgtext p {
+    line-height: 23px;
+}
+.imgtext{
+    width: 650px;
+    height: auto;
+    margin-top: 20px;
+    color: #555555;
+}
+/* contact section start */
+.contactSection{
+    background-color: #f6f6f6;
+}
+.contactText{
+    width: 75%;
+    margin: auto;
+    padding: 70px;
+}
+.text1{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 2% 1%;
+    color: #555555;
+}
+.text1 i{
+    color: #0bbf9a;
+    font-size: 17px;
+}
+.contact-icon{
+    background-color: #0dbf9b;
+    text-align: center;
+}
+.contact-icon li{
+    display: inline-block;
+    padding: 23px;
+    color: white;
+    font-size: 27px;
+    transition: .7s;
+}
+.contact-icon li:hover{
+    color: hotpink;
+}
+.footer{
+    padding: 17px;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    background-color: #222222;
+    color: #555555;
+}
